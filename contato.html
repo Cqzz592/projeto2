@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Projeto Social</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historias.html">Histórias de Impacto</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="voluntarios.html">Seja Voluntário</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="informacoes-contato">
+        <h2>Fale Conosco</h2>
+        <p>Estamos sempre prontos para responder suas dúvidas e sugestões. Entre em contato conosco pelos canais abaixo:</p>
+        <p><strong>Email:</strong> contato@projetosocial.org</p>
+        <p><strong>Telefone:</strong> (11) 1234-5678</p>
+        <p><strong>Endereço:</strong> Rua da Solidariedade, 100, São Paulo</p>
+    </section>
+
+    <section id="formulario-contato">
+        <h2>Envie uma Mensagem</h2>
+        <form id="contato-form" method="POST" action="enviar_email.php">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+        
+            <button type="submit">Enviar</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <h3>Contato</h3>
+        <p>Email: contato@projetosocial.org</p>
+        <p>Telefone: (11) 1234-5678</p>
+        <p>Endereço: Rua da Solidariedade, 100, São Paulo</p>
+    </footer>
+</body>
+</html>
